@@ -9,8 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play The Adventures of Sparkle Shelly Part 2.</tw-noscript></noscript></tw-story>
-<tw-storydata name="The Adventures of Sparkle Shelly Part 2" startnode="1" creator="Twine" creator-version="2.3.12" ifid="6535DAF2-3CF2-4C43-89EB-DAE0A0356B45" zoom="1" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Beginning" tags="" position="412,189" size="100,100">(set:$have_book to false)(set:$have_rope to false)(set:$have_ball to false)(set:$have_diadem to false)(set:$with_isanna to false)
-You, Queen Shelly start at Queen Castle.  You are accompanied by Lucky, your unicorn, and Clarence, your loyal cat.  Lucky’s mail-delivering magic starts to happen.  A letter appears!
+<tw-storydata name="The Adventures of Sparkle Shelly Part 2" startnode="1" creator="Twine" creator-version="2.3.12" ifid="6535DAF2-3CF2-4C43-89EB-DAE0A0356B45" zoom="1" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Beginning" tags="" position="412,189" size="100,100">(set:$have_book to false)(set:$have_rope to false)(set:$have_ball to false)(set:$have_diadem to false)(set:$with_isanna to false)You, Queen Shelly start at Queen Castle.  You are accompanied by Lucky, your unicorn, and Clarence, your loyal cat.  Lucky’s mail-delivering magic starts to happen.  A letter appears!
 
 You take the letter from Lucky and open it.  
 
@@ -32,8 +31,7 @@ Do you [[Head into the forest]] or [[Investigate an isolated tree|Investigate th
 “These are some of the devices I’ve been using to try to figure out the source of the forest energy,” she replies.  “As I said in my letter, I haven’t figured anything out.  Do you want to investigate the forest with me?”  
 
 [[Go by yourself|The Glowing Forest]] or [[Go with Isanna]]
-</tw-passagedata><tw-passagedata pid="4" name="Go with Isanna" tags="" position="408,486" size="100,100">(set: $with_isanna to true)
-“It seems like a great idea to work together,” you say.  You and Isanna head off toward Shadow Lane, the road that leads toward and through the Glowing Forest.  The castle detectives are prowling around the edges of the forest, not getting too close.  An isolated tree sits alone, off to one side of the path.
+</tw-passagedata><tw-passagedata pid="4" name="Go with Isanna" tags="" position="408,486" size="100,100">(set: $with_isanna to true)“It seems like a great idea to work together,” you say.  You and Isanna head off toward Shadow Lane, the road that leads toward and through the Glowing Forest.  The castle detectives are prowling around the edges of the forest, not getting too close.  An isolated tree sits alone, off to one side of the path.
 
 [[Investigate the tree]] or [[Ask Isanna to investigate the tree]]
 </tw-passagedata><tw-passagedata pid="5" name="Investigate the tree" tags="" position="689,456" size="100,100">You step closer to an isolated tree.  A short, round branch is sticking out of the trunk at just about your height.  There are no other trees nearby.  You reach out and tug gently on the round branch, which looks a bit like a knob.  A door in the tree swings open and a book falls out!
@@ -46,22 +44,16 @@ Do you [[Pick up the book]] or [[Put the book back into the tree]]?</tw-passaged
 
 You enter the maze.(set: $maze_steps to (a:))(set: $have_rope to false)
 
-* [[Turn left]]
-* [[Turn right]](if:$with_isanna is true)[
-* [[Ask Isanna which way to go]]
-]</tw-passagedata><tw-passagedata pid="9" name="Front Door" tags="" position="802,939" size="100,100">Bravely, you and Isanna step up to the front door of the castle.  You knock loudly on the big door and it makes a hollow sound. The door swings open, seemingly by itself!  The main hall is lit with torches of bright blue flame.  You follow this large passage until you arrive in a grand throne room!
+[[Turn left]] or [[Turn right]](if:$with_isanna is true)[ or [[Ask Isanna which way to go]]?](else:)[?]</tw-passagedata><tw-passagedata pid="9" name="Front Door" tags="" position="802,939" size="100,100">Bravely, you and Isanna step up to the front door of the castle.  You knock loudly on the big door and it makes a hollow sound. The door swings open, seemingly by itself!  The main hall is lit with torches of bright blue flame.  You follow this large passage until you arrive in a grand throne room!
 
 A huge crystal throne on a platform is sitting in the middle of the room.   A queen is seated on the throne.  She is wearing a dark purple dress encrusted with emeralds.  “What is your business here?”  she asks haughtily.
 
-Do you [[Ask her about the forest energy]] or [[Ask her who she is]]?</tw-passagedata><tw-passagedata pid="10" name="Ask her about the forest energy" tags="" position="727,1089" size="100,100">(if:$with_isanna is true)[
-“We are here to try to find the source of the strange energy coming from the forest,” you say.  
+Do you [[Ask her about the forest energy]] or [[Ask her who she is]]?</tw-passagedata><tw-passagedata pid="10" name="Ask her about the forest energy" tags="" position="727,1089" size="100,100">(if:$with_isanna is true)[“We are here to try to find the source of the strange energy coming from the forest,” you say.  
 
 “You must mean MY GLOW ENERGY,” says the queen.  “And I am going to use it to turn you into a fish!”  Before you and Isanna can react, energy flies from her ring, and she turns you both into fish.
-](else:)[
-“I am here to try to find the source of the strange energy coming from the forest,” you say.  
+](else:)[“I am here to try to find the source of the strange energy coming from the forest,” you say.  
 “You must mean MY GLOW ENERGY,” says the queen.  “And I am going to use it to turn you into a fish!”  Before you can react, energy flies from her ring, and she turns you into a fish.
-]</tw-passagedata><tw-passagedata pid="11" name="Ask her who she is" tags="" position="877,1089" size="100,100">(if:$with_isanna is true)[
-You stand up your straightest and declare, “I am Sparkle Queen Shelly of Sparkle Landia, and this is my friend former Sparkle Queen Isanna.  And who are you?”
+]</tw-passagedata><tw-passagedata pid="11" name="Ask her who she is" tags="" position="877,1089" size="100,100">(if:$with_isanna is true)[You stand up your straightest and declare, “I am Sparkle Queen Shelly of Sparkle Landia, and this is my friend former Sparkle Queen Isanna.  And who are you?”
 
 She looks slightly amused.  “I am Glow Queen Jade, ruler of the Glow Kingdom.  I enjoy having lots of fish around.   And perhaps it is time I had a couple more of them!”
 
@@ -80,12 +72,11 @@ Queen Jade looks irritated, but not completely surprised.
 You and Isanna exchange slightly alarmed glances.  Your combined magic is exponentially stronger than either of your magic would be alone, but the queen apparently does not know this.
 
 Do you [[Ask the queen about the maze]] or [[Try to leave the castle and go back to the forest]]?
-](else:)[
-	You stand up your straightest and declare, “I am Sparkle Queen Shelly of Sparkle Landia.  And who are you?”
+](else:)[You stand up your straightest and declare, “I am Sparkle Queen Shelly of Sparkle Landia.  And who are you?”
 	
-	She looks slightly amused.  “I am Glow Queen Jade, ruler of the Glow Kingdom.  I enjoy having lots of fish around.   And perhaps it is time I had another one!”
+She looks slightly amused.  “I am Glow Queen Jade, ruler of the Glow Kingdom.  I enjoy having lots of fish around.   And perhaps it is time I had another one!”
 
-	She waves her hand in the air.  Glowing energy comes from an amethyst ring on her finger.  Suddenly you are a fish!
+She waves her hand in the air.  Glowing energy comes from an amethyst ring on her finger.  Suddenly you are a fish!
 ]</tw-passagedata><tw-passagedata pid="12" name="Ask the queen about the maze" tags="" position="802,1239" size="100,100">“We didn’t mean to trespass,” you say diplomatically, “But we noticed there was a maze around the side of the castle, and didn’t think it looked too easy to solve.  Is that your maze?”
 
 “Of course it is,” Jade replies. “I want another fish.”
@@ -98,10 +89,8 @@ Do you [[Investigate the maze]] or [[Enter the castle]]?</tw-passagedata><tw-pas
 	
 	A huge crystal throne on a platform is sitting in the middle of the room.   A queen is seated on the throne.  She is wearing a dark purple dress encrusted with emeralds.  “What is your business here?”  she asks haughtily.
 
-[[Ask her about the forest energy]] or [[Ask her who she is]].</tw-passagedata><tw-passagedata pid="16" name="Pick up the book" tags="" position="716,666" size="100,100">(set: $have_book to true)
-Feeling a little nervous, you pick up the heavy book.  The hard cover is solid black.  You open the book to a random place, and the pages are blank.  You slip the book into your satchel and (if:$with_isanna is true)[[[continue heading toward the forest|Continue into the forest with Isanna]]](else)[[[continue heading toward the forest|Head into the forest]]].
-</tw-passagedata><tw-passagedata pid="17" name="Put the book back into the tree" tags="" position="913,698" size="100,100">(set: $have_book to false)
-This book must belong to someone, and you’re not that someone.  You pick it up, put it back into the tree, and close the door.
+[[Ask her about the forest energy]] or [[Ask her who she is]].</tw-passagedata><tw-passagedata pid="16" name="Pick up the book" tags="" position="716,666" size="100,100">(set: $have_book to true)Feeling a little nervous, you pick up the heavy book.  The hard cover is solid black.  You open the book to a random place, and the pages are blank.  You slip the book into your satchel and (if:$with_isanna is true)[[[continue heading toward the forest|Continue into the forest with Isanna]]](else)[[[continue heading toward the forest|Head into the forest]]].
+</tw-passagedata><tw-passagedata pid="17" name="Put the book back into the tree" tags="" position="913,698" size="100,100">(set: $have_book to false)This book must belong to someone, and you’re not that someone.  You pick it up, put it back into the tree, and close the door.
 
 (if:$with_isanna is true)[ [[Continue into the forest with Isanna]] ](else)[ [[Head into the forest]] ].</tw-passagedata><tw-passagedata pid="18" name="Ask Isanna which way to go" tags="" position="1403,767" size="100,100">Isanna leads you through the maze. After a couple of turns, she stops to dig and finds a rope!(set:$have_rope to true) After a couple more turns, she throws the rope over the hedge.
 
@@ -109,48 +98,28 @@ You climb out of the maze. The forest looks much more disorganized now that you�
 
 “Hello, what are you doing here?” she asks gently, with the accent of someone who is not from Sparkle Landia.
 
-[[Tell her the truth]] or [[Make up some nonsense about testing out the maze]].</tw-passagedata><tw-passagedata pid="19" name="Turn left" tags="" position="1335,1063" size="100,100">(if:$maze_steps&#39;s length &gt; 12)[
-You are lost in the maze forever.
-](else:)[
-(set: $maze_steps to it + (a:&quot;left&quot;))
+[[Tell her the truth]] or [[Make up some nonsense about testing out the maze]].</tw-passagedata><tw-passagedata pid="19" name="Turn left" tags="" position="1335,1063" size="100,100">(if:$maze_steps&#39;s length &gt; 12)[You are lost in the maze forever.
+](else:)[(set: $maze_steps to it + (a:&quot;left&quot;))You follow the greenery for a while to the left. Then you reach another fork in the path.
 
-You follow the greenery for a while to the left. Then you reach another fork in the path.
+[[Turn left]] or [[Turn right]] or [[Try to dig]] or [[Try to climb the hedge]]?
+]</tw-passagedata><tw-passagedata pid="20" name="Turn right" tags="" position="1423,918" size="100,100">(if:$maze_steps&#39;s length &gt; 12)[You are lost in the maze forever.
+](else:)[(set: $maze_steps to it + (a:&quot;right&quot;))You follow the greenery for a while to the left. Then you reach another fork in the path.
 
-* [[Turn left]]
-* [[Turn right]]
-* [[Try to dig]]
-* [[Try to climb the hedge]]
-]</tw-passagedata><tw-passagedata pid="20" name="Turn right" tags="" position="1423,918" size="100,100">(if:$maze_steps&#39;s length &gt; 12)[
-You are lost in the maze forever.
-](else:)[
-(set: $maze_steps to it + (a:&quot;right&quot;))
-
-You follow the greenery for a while to the left. Then you reach another fork in the path.
-
-* [[Turn left]]
-* [[Turn right]]
-* [[Try to dig]]
-* [[Try to climb the hedge]]
+[[Turn left]] or [[Turn right]] or [[Try to dig]] or [[Try to climb the hedge]]?
 ]</tw-passagedata><tw-passagedata pid="21" name="Try to dig" tags="" position="1429,1210" size="100,100">You scratch at the soil.  This would be easier if you had a shovel! (if:$maze_steps is (a:&quot;left&quot;,&quot;left&quot;))[(set: $have_rope to true) But as you scratch, you find an old thick rope! You put it in your satchel.]
 
-* [[Turn left]]
-* [[Turn right]]
-</tw-passagedata><tw-passagedata pid="22" name="Try to climb the hedge" tags="" position="1554,1134" size="100,100">(if:$have_rope is false)[
-You scramble at the branches and try to climb.  It’s pretty much impossible.
+[[Turn left]] or [[Turn right]]?
+</tw-passagedata><tw-passagedata pid="22" name="Try to climb the hedge" tags="" position="1554,1134" size="100,100">(if:$have_rope is false)[You scramble at the branches and try to climb.  It’s pretty much impossible.
 
-* [[Turn left]]
-* [[Turn right]]
-](else-if:$maze_steps is (a:&quot;left&quot;,&quot;left&quot;,&quot;right&quot;,&quot;right&quot;))[
-You throw the rope over the hedge and successfully climb out of the maze.  The forest looks much more disorganized now that you’re out of that maze.  As your eyes become accustomed to the dimmer light,  you see a woman in a dark turquoise gown with purple lace trimmings just ahead of you.  She is wearing a long emerald necklace that goes down to the center of her chest. 
+[[Turn left]] or [[Turn right]]?
+](else-if:$maze_steps is (a:&quot;left&quot;,&quot;left&quot;,&quot;right&quot;,&quot;right&quot;))[You throw the rope over the hedge and successfully climb out of the maze.  The forest looks much more disorganized now that you’re out of that maze.  As your eyes become accustomed to the dimmer light,  you see a woman in a dark turquoise gown with purple lace trimmings just ahead of you.  She is wearing a long emerald necklace that goes down to the center of her chest. 
 
 “Hello, what are you doing here?” she asks gently, with the accent of someone who is not from Sparkle Landia.
 
 [[Tell her the truth]] or [[Make up some nonsense about testing out the maze]].
-](else:)[
-You scramble at the branches and try to climb.  It’s pretty much impossible.  There’s nowhere here to attach a rope.
+](else:)[You scramble at the branches and try to climb.  It’s pretty much impossible.  There’s nowhere here to attach a rope.
 
-* [[Turn left]]
-* [[Turn right]]
+[[Turn left]] or [[Turn right]]?
 ]</tw-passagedata><tw-passagedata pid="23" name="Tell her the truth" tags="" position="1479,1330" size="100,100">	“I’m looking for the source of the glow magic in this forest,” you say.  
 	“You mean the ring of magic?”  she replies.  
 	
@@ -183,8 +152,7 @@ You scramble at the branches and try to climb.  It’s pretty much impossible.  
 
 (if:$have_book is true and $have_ball is true and $have_diadem is true)[You open the book to see if the pages are still blank.  They are.  You look into the ball, and it shows a picture of rubbing the ball, wearing the Diadem, and reading the book, and the ring being sucked into the book.  Guess this is how the artifacts work!]
 
-[[Return to the castle]]</tw-passagedata><tw-passagedata pid="28" name="Return to the castle" tags="" position="1674,1780" size="100,100">(if:$have_book is true and $have_ball is true and $have_diadem is true)[
-You make your way back out of the maze and hike back up to the main entrance of the castle.   You knock on the front door.  It swings open just as before and you take the same path toward the Queen’s throne room.  You arrive in the throne room and once again face Queen Jade.
+[[Return to the castle]]</tw-passagedata><tw-passagedata pid="28" name="Return to the castle" tags="" position="1674,1780" size="100,100">(if:$have_book is true and $have_ball is true and $have_diadem is true)[You make your way back out of the maze and hike back up to the main entrance of the castle.   You knock on the front door.  It swings open just as before and you take the same path toward the Queen’s throne room.  You arrive in the throne room and once again face Queen Jade.
 	
 “What do you want this time?”  Queen Jade asks warily.
 
@@ -195,8 +163,7 @@ You rub the ball hard on the cover of the book, put on the diadem, and start rea
 (unless:$accompanied_by_isanna is true)[You can’t wait to go show them to Isanna, and tell her all about it.]
 
 (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[THE END]
-](else:)[
-You make your way back out of the maze and hike back up to the main entrance of the castle.   You knock on the front door.  It swings open just as before and you take the same path toward the Queen’s throne room.  You arrive in the throne room and once again face Queen Jade.
+](else:)[You make your way back out of the maze and hike back up to the main entrance of the castle.   You knock on the front door.  It swings open just as before and you take the same path toward the Queen’s throne room.  You arrive in the throne room and once again face Queen Jade.
 	
 “What do you want this time?”  Queen Jade asks warily.
 
