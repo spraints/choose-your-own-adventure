@@ -103,7 +103,7 @@ You climb out of the maze. The forest looks much more disorganized now that youâ
 
 [[Turn left]] or [[Turn right]] or [[Try to dig]] or [[Try to climb the hedge]]?
 ]</tw-passagedata><tw-passagedata pid="20" name="Turn right" tags="" position="1423,918" size="100,100">(if:$maze_steps&#39;s length &gt; 12)[You are lost in the maze forever.
-](else:)[(set: $maze_steps to it + (a:&quot;right&quot;))You follow the greenery for a while to the left. Then you reach another fork in the path.
+](else:)[(set: $maze_steps to it + (a:&quot;right&quot;))You follow the greenery for a while to the right. Then you reach another fork in the path.
 
 [[Turn left]] or [[Turn right]] or [[Try to dig]] or [[Try to climb the hedge]]?
 ]</tw-passagedata><tw-passagedata pid="21" name="Try to dig" tags="" position="1429,1210" size="100,100">You scratch at the soil.  This would be easier if you had a shovel! (if:$maze_steps is (a:&quot;left&quot;,&quot;left&quot;))[(set: $have_rope to true) But as you scratch, you find an old thick rope! You put it in your satchel.]
